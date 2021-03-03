@@ -1,15 +1,15 @@
-# derive-key
+# dweb-derive-key
 
 Derive a named key from a high-entropy master key
 
 ```
-npm install derive-key
+npm install dweb-derive-key
 ```
 
 ## Usage
 
 ``` js
-const derive = require('derive-key')
+const derive = require('dweb-derive-key')
 const masterKey = crypto.randomBytes(32) // make sure this is high-entropy master key, eg. from a CSPRNG
 
 const key = derive('a namespace', masterKey, 'my-named-key')

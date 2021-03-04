@@ -1,6 +1,6 @@
 {
-  "name": "derive-key",
-  "version": "1.0.1",
+  "name": "dweb-derive-key",
+  "version": "1.0.0",
   "description": "Derive a named key from a master key",
   "main": "index.js",
   "dependencies": {
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperdivision/derive-key.git"
+    "url": "https://github.com/dwebprotocol/dweb-derive-key.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyperdivision/derive-key/issues"
+    "url": "https://github.com/dwebprotocol/dweb-derive-key/issues"
   },
-  "homepage": "https://github.com/hyperdivision/derive-key"
+  "homepage": "https://dwebx.org"
 }
